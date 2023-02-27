@@ -1,0 +1,21 @@
+int main() {
+
+  float a, b, c, media;
+
+  scanf("%f", &a);
+
+  scanf("%f", &b);
+
+  scanf("%f", &c);
+
+  //TODO: Crie as condições necessárias para calcular a média e printar no console o valor dessa média conforme a saída pedida no exercício
+
+  // getchar();
+
+  media = (a + b + c) /3;
+
+  printf("Media = %.2f",media);
+
+  return 0;
+
+}

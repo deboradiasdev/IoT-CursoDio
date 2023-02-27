@@ -1,0 +1,18 @@
+int main() {
+    float salarioBase, gratificacao, imposto, salarioFinal;
+    
+    scanf("%f", &salarioBase);
+
+    //TODO: Calcule a gratificação, o imposto e o salário final. Em seguida print no console o salário final.
+  
+    gratificacao = (0.05 * salarioBase);
+    
+    imposto = (0.07 * salarioBase);
+    
+    salarioFinal = (salarioBase + gratificacao - imposto);
+    //getchar();
+    
+    printf("Salario final: %.2f",salarioFinal);
+    
+    return 0;
+}

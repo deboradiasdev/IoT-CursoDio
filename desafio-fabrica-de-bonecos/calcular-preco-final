@@ -1,0 +1,23 @@
+int main() {
+    float precoFabrica, lucro, impostos, precoFinal;
+    float percentualLucro, percentualImpostos;
+
+    scanf("%f", &precoFabrica);
+    scanf("%f", &percentualLucro);
+    scanf("%f", &percentualImpostos);
+
+    //TODO: Calcule o lucro, o imposto e o preço final. Em seguida print os três, em sequência um abaixo do outro, no 
+    // console
+
+    impostos = precoFabrica * (percentualImpostos/100);
+    lucro = precoFabrica * (percentualLucro/100);
+    precoFinal = precoFabrica + lucro + impostos;
+    getchar();
+
+    printf("Lucro: R$ %0.2f", lucro);
+    
+    printf("\nImpostos: R$ %0.2f", impostos);
+    
+    printf("\nPreco final: R$ %0.2f", precoFinal);
+    return 0;
+}
